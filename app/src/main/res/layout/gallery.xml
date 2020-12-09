@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Gallery"
+    android:background="@drawable/newbackground2"
+    android:orientation="vertical">
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="150dp">
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="15dp"
+        app:srcCompat="@drawable/black"
+        android:scaleType="fitXY"/>
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_toRightOf="@+id/imageButton1"
+        android:layout_centerVertical="true"
+        app:srcCompat="@drawable/black"
+        android:scaleType="fitXY"/>
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginRight="15dp"
+        android:layout_toRightOf="@+id/imageButton2"
+        android:layout_centerVertical="true"
+        app:srcCompat="@drawable/black"
+        android:scaleType="fitXY"/>
+</LinearLayout>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginLeft="15dp"
+        android:layout_above = "@+id/imageButton1"
+        app:srcCompat="@drawable/black"
+        android:scaleType="fitXY"/>
+
+    <ImageView
+        android:id="@+id/imageButton5"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_toRightOf="@+id/imageButton1"
+        android:layout_above = "@+id/imageButton1"
+        app:srcCompat="@drawable/white"
+        android:scaleType="fitXY"/>
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_toRightOf="@+id/imageButton2"
+        android:layout_above = "@+id/imageButton1"
+        android:layout_marginRight="15dp"
+        app:srcCompat="@drawable/black"
+        android:scaleType="fitXY"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <ImageButton
+        android:id="@+id/imageButton7"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_below="@+id/imageButton1"
+        android:layout_marginLeft="15dp"
+        app:srcCompat="@drawable/black"
+        android:scaleType="fitXY"/>
+
+    <ImageButton
+        android:id="@+id/imageButton8"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_below="@+id/imageButton2"
+        android:layout_toRightOf="@+id/imageButton7"
+        app:srcCompat="@drawable/black"
+        android:scaleType="fitXY"/>
+
+    <ImageButton
+        android:id="@+id/imageButton9"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_below="@+id/imageButton2"
+        android:layout_toRightOf="@+id/imageButton8"
+        android:layout_marginRight="15dp"
+        app:srcCompat="@drawable/black"
+        android:scaleType="fitXY"/>
+    </LinearLayout>
+</LinearLayout>

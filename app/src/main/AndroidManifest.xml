@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication">
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="PaC"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Ending"/>
+        <activity android:name=".Game_Story_Ending" />
+        <activity android:name=".ItemFood" />
+        <activity android:name=".Setting" />
+        <activity android:name=".Gallery" />
+        <activity android:name=".Address" />
+        <activity android:name=".Item" />
+        <activity android:name=".Internet" />
+        <activity android:name=".Instart" />
+        <activity android:name=".InPhon" />
+        <activity android:name=".GameButton" />
+        <activity android:name=".Game_Text" />
+        <activity android:name=".MainLobby" />
+        <activity
+            android:name=".Splash"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
