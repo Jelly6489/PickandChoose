@@ -1,5 +1,3 @@
 # PickandChoose
 
-
-
-# Kotlin & AndroidStudio
+Kotlin & AndroidStudio
